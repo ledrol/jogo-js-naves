@@ -14,17 +14,14 @@ body {
 }
 
 #container{
-	width:950px;
 	height:auto;
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
 }
 
-
 #fundoGame {
-	width:950px;
-	height:630px;
+	height:595px;
 	background-image:url(../imgs/fundo_game.jpg);
 	border-color:#FFF;
 	border-style:solid;
@@ -43,7 +40,7 @@ body {
 	width: 256px;
 	height: 66px;
 	position: absolute;
-	left: 689px;
+	left: 1070px;
 	top: 253px;
 	background-image:url(../imgs/inimigo1.png);
 }
@@ -52,7 +49,7 @@ body {
 	width: 165px;
 	height: 70px;
 	position: absolute;
-	left: 775px;
+	left: 1170px;
 	top: 447px;
 	background-image: url(../imgs/inimigo2.png);
 }
@@ -208,15 +205,15 @@ body {
 
 #placar {
 	width: 450px;
-	height: 50px;
+	height: 40px;
 	position: absolute;
 	left: 5px;
-	top: 590px;
+	top: 560px;
 }
 
 h2 {
 	font-family:Titulo;
-	font-size:20px;
+	font-size:18px;
 	color:#FFF
 }
 
@@ -224,7 +221,7 @@ h2 {
 	width: 140px;
 	height: 38px;
 	position: absolute;
-	left: 750px;
+	left: 1190px;
 	top: 7px;	
 }
 

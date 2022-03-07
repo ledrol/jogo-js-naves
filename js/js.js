@@ -95,7 +95,7 @@ function start() { // Inicio da função start()
 		$("#inimigo1").css("top",posicaoY);
 		if (posicaoX<=0) {
 			posicaoY = parseInt(Math.random() * 334);
-			$("#inimigo1").css("left",694);
+			$("#inimigo1").css("left",1070);
 			$("#inimigo1").css("top",posicaoY);	
 		}
 	} //Fim da função moveinimigo1()
@@ -104,7 +104,7 @@ function start() { // Inicio da função start()
 		posicaoX = parseInt($("#inimigo2").css("left"));
 		$("#inimigo2").css("left",posicaoX-3);	
 		if (posicaoX<=0) {
-			$("#inimigo2").css("left",775);
+			$("#inimigo2").css("left",1170);
 		}
 	} // Fim da função moveinimigo2()
 
@@ -158,7 +158,7 @@ function start() { // Inicio da função start()
 				explosao1(inimigo1X,inimigo1Y);
 			
 				posicaoY = parseInt(Math.random() * 334);
-				$("#inimigo1").css("left",694);
+				$("#inimigo1").css("left",1070);
 				$("#inimigo1").css("top",posicaoY);
 				}
 
@@ -184,7 +184,7 @@ function start() { // Inicio da função start()
 				$("#disparo").css("left",950);
 
 				posicaoY = parseInt(Math.random() * 334);
-				$("#inimigo1").css("left",694);
+				$("#inimigo1").css("left",1070);
 				$("#inimigo1").css("top",posicaoY);
 				}
 
